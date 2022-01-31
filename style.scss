@@ -178,7 +178,7 @@ body {
 }
 
 .hero__text button:hover {
-	background-color: hsla(0, 0%, 100%, 0.918);
+	background-color: transparent;
 	border: 1px solid rgba(0, 0, 0, 0.85);
 	color: hsl(0, 0%, 0%);
 }
@@ -252,6 +252,7 @@ body {
 		width: 100%;
 		display: flex;
 		justify-content: space-evenly;
+		flex-wrap: wrap;
 	}
 	&__links {
 		li {
@@ -270,8 +271,8 @@ body {
 	justify-content: space-evenly;
 	width: 200px;
 	.social__media {
-		width: 40px;
-		height: 40px;
+		width: 36px;
+		height: 36px;
 	}
 }
 
@@ -288,6 +289,10 @@ body {
 	a {
 		text-decoration: none;
 	}
+}
+
+.follow {
+	text-align: center;
 }
 
 .media__store {
@@ -325,7 +330,7 @@ body {
 }
 
 .terms__container {
-	margin: 2rem;
+	padding: 2rem;
 	color: #686868;
 	display: flex;
 	justify-content: space-between;
