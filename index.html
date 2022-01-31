@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Foxx</title>
+		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="icon" href="./images/logo.svg" type="image/svg" />
+		<script
+			src="https://kit.fontawesome.com/e6dfcc1a53.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<header class="header">
+			<nav class="nav">
+				<input
+					type="checkbox"
+					id="nav__checkbox"
+					class="nav__checkbox"
+				/>
+				<label for="nav__checkbox" class="nav__toggle">
+					<i class="fas fa-bars mobmenu"></i>
+					<i class="fas fa-times close"></i>
+				</label>
+				<ul class="nav__menu">
+					<li>
+						<div class="logo__container">
+							<img
+								src="./images/logo.png"
+								alt="Logo"
+								style="width: 48px; height: 48px"
+							/>
+							<a href="#" class="logo"
+								><span class="orange">F</span>oxx</a
+							>
+						</div>
+					</li>
+					<li><a href="#" class="link active">About</a></li>
+					<li><a href="#" class="link">Volunteer</a></li>
+					<li><a href="#" class="link">Donate</a></li>
+					<li><a href="#" class="link">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main class="main">
+			<section class="main__hero">
+				<div class="hero__description">
+					<div class="hero__title">
+						<h1>Foxes are more like cats than dogs.</h1>
+					</div>
+					<div class="hero__text">
+						<p>
+							Whiskers to navigate and even stalk their prey like
+							cats.
+						</p>
+						<button>Feed me</button>
+					</div>
+				</div>
+			</section>
+			<section class="about">
+				<div class="title">
+					<h2>ABOUT</h2>
+				</div>
+				<div class="card__container">
+					<div class="card__content">
+						<h3 class="card__title">
+							Foxes live in underground dens
+						</h3>
+						<p class="card__para">
+							Fox families, also known as a skulk or leash of
+							foxes, live in underground dens. When the vixen has
+							her pups — a litter of foxes can range between one
+							and 11 pups — they live in the den together for
+							seven months while the pups grow. The pups live in
+							the den with the vixen, while the dog fox gathers
+							food.
+						</p>
+					</div>
+					<figure class="card__photo">
+						<img
+							src="./images/fox-dens.jpg"
+							alt="Fox dens"
+							class="card__img"
+						/>
+					</figure>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<section class="footer__contents">
+				<div class="footer__logo">
+					<div class="logo__author">
+						<img src="./images/logo.svg" alt="Logo" />
+						<a href="#" class="logo"
+							><span class="orange">F</span>OXX</a
+						>
+					</div>
+					<div class="logo__author">
+						<p>Designed by Kier Danganan</p>
+					</div>
+				</div>
+				<div class="footer__navigation">
+					<nav class="footer__links">
+						<h3 class="footer__subheader">Join us</h3>
+						<ul>
+							<li><a href="#">Volunteer</a></li>
+							<li><a href="#">Community</a></li>
+							<li><a href="#">Donate</a></li>
+							<li><a href="#">About</a></li>
+						</ul>
+					</nav>
+					<nav class="footer__links">
+						<h3 class="footer__subheader">Follow us</h3>
+						<ul class="follow__links">
+							<li>
+								<a href="#"
+									><div class="social__media facebook">
+										<img
+											src="./images/facebook-colored.svg"
+											alt="Facebook"
+										/></div
+								></a>
+							</li>
+							<li>
+								<a href="#"
+									><div class="social__media twitter">
+										<img
+											src="./images/twitter-colored.svg"
+											alt="Twitter"
+										/></div
+								></a>
+							</li>
+							<li>
+								<a href="#"
+									><div class="social__media youtube">
+										<img
+											src="./images/youtube-colored.svg"
+											alt="Youtube"
+										/></div
+								></a>
+							</li>
+						</ul>
+					</nav>
+					<div class="download__app">
+						<h3 class="download__title">Download our app</h3>
+						<div class="app__links">
+							<a
+								href="#"
+								alt="Download on the Appstore"
+								class="media__store"
+							>
+								<img
+									src="./images/appstore.svg"
+									alt="apple icon"
+									width="40px"
+									class="media__icon"
+								/>
+								<div class="media__content">
+									<span class="download__text"
+										>Download on the</span
+									>
+									<span class="app__title">App store</span>
+								</div>
+							</a>
+						</div>
+						<div class="app__links">
+							<a
+								href="#"
+								alt="Download on the Playstore"
+								class="media__store"
+							>
+								<img
+									src="./images/google-playstore.svg"
+									alt="playstore icon"
+									width="40px"
+									class="media__icon"
+								/>
+								<div class="media__content">
+									<span class="download__text"
+										>Download on the</span
+									>
+									<span class="app__title">Play store</span>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<hr class="separator" />
+			<div class="terms">
+				<div class="terms__container">
+					<p class="param__terms">© All rights reserved.</p>
+					<nav class="terms__navigation">
+						<ul>
+							<li><a href="#">Privacy Policy</a></li>
+							<li><a href="#">Terms & Conditions</a></li>
+							<li><a href="#">Cookies Policy</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</footer>
+	</body>
+	<script src="main.js"></script>
+</html>
